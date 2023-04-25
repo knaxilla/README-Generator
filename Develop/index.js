@@ -2,50 +2,50 @@
 const inquirer = require("inquirer")
 const fs = require("fs")
 
-const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown.js")
 
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is the title of your project?"
+        message: "What is the title of your project?",
     },
     {
         type: "input",
         name: "description",
-        message: "What is the description of your project?"
+        message: "What is the description of your project?",
     },
     {
         type: "input",
         name: "installation",
-        message: "What did you install for your project?"
+        message: "Installation instructions: ",
     },
     {
         type: "input",
         name: "usage",
-        message: "What is the usage of your project?"
+        message: "Usage instructions: ",
     },
     {
         type: "list",
         name: "license",
-        message: "What license did you use for your project",
-        choices: ["MIT", "APACHE 2.0"]
+        message: "Choose a license: ",
+        choices: ["MIT", "APACHE 2.0"],
     },
     {
         type: "input",
         name: "contributing",
-        message: "Who/What contributed to your project?"
+        message: "Contribution guidelines: ",
     },
     {
         type: "input",
         name: "tests",
-        message: "Tests?"
+        message: "Test instructions: ",
     },
     {
         type: "input",
         name: "email",
-        message: "please enter a valid email that they can conctact you at: "
+        message: "please enter a valid email that they can contact you at: ",
     },
 ];
 

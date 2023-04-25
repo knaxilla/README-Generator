@@ -2,16 +2,9 @@
 
 ## Description
 
-This READme Generator was created to help organize 
+Using node and inquirer, this application quickly helps you create a high-quality README. In the command-line, the user is given prompts and they input information based off their project and it then generates to a pre-made README template. 
 
-- What was your motivation? What motivated me to complete this project was so I am able to spend more time developing the project and able to create the READme with the template I have designated 
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.") As a developer, you want to spend as much time as you can working on the coding aspect. The READme is just to 
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -20,7 +13,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Node v18.15.0, Inquirer 8.2.4
 
 ## Usage
 
@@ -44,19 +37,11 @@ If you followed tutorials, include links to those here as well.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
 ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
 
 ## How to Contribute
 

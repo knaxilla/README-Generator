@@ -18,6 +18,7 @@ Node v18.15.0, Inquirer 8.2.4
 
 ## Usage
 
+![image](https://user-images.githubusercontent.com/123846514/234170764-4b895a30-ab9a-428d-8991-1d2b88a52497.png)
 
 ## Credits
 
